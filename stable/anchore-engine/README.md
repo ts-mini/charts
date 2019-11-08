@@ -438,7 +438,7 @@ anchoreGlobal:
   ```
   postgresql:
     postgresqlPassword: <PASSWORD>
-    postgresqlUser: <USER>
+    postgresqlUsername: <USER>
     postgresqlDatabase: <DATABASE>
     enabled: false
     externalEndpoint: <HOSTNAME:5432>
@@ -454,7 +454,7 @@ anchoreGlobal:
   postgresql:
     enabled: false
     postgresqlPassword: <CLOUDSQL-PASSWORD>
-    postgresqlUser: <CLOUDSQL-USER>
+    postgresqlUsername: <CLOUDSQL-USER>
     postgresqlDatabase: <CLOUDSQL-DATABASE>
 
   cloudsql:
